@@ -1,0 +1,52 @@
+Linux Challenge 
+
+## Task 1 : Basic Task
+
+1. cd Desktop
+2. mkdir myProject
+3. cd myProject
+4. touch app.js
+5. cd../ mkdir myProject2
+6. cp -r myProject/app.js myProject2
+
+## Task 2 : Absolute and Relative Paths
+
+1. cd
+2. touch exercise.txt /tmp
+3. mv exercise.txt /tmp
+4. rm /tmp/exercise.txt
+
+## Task 3 : Cat commands
+
+1. touch umuzi.txt cohort.txt recruits.txt
+2. vim (file name)
+3. cat * (File name)  //edit_texts
+4. cat *.txt >> summary.txt
+5. echo 'the content here has been concatenated' >> summary.txt
+
+## Task 4 : The locate command
+
+1. locate umuzi
+2. locate umuzi.txt > search_result.txt
+
+## Task 5 : The locate command cont..
+
+cd mydocument
+touch pad.txt
+cd ../
+mkdir work
+cp -R ../mydocument/pad.txt /home/recruit/Desktop/work/pad_copy.txt
+sudo updatedb
+
+## Task 6 : Find commands
+
+1. find -type f -name "*.pdf"
+2. find -type f -name "*.pdf" -exec cp {} ~/ \;
+3. find ~/ -daystart -type f -mtime 0
+
+## Task 7 : Text editor
+
+1. nano my_bio.txt
+2. mkdir my_files && mv my_bio.txt my_files
+
+
